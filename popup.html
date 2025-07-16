@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <style>
+    body { font-family: sans-serif; margin: 10px; width: 200px; }
+    label { display: block; margin-bottom: 8px; font-size: 0.9em; }
+    input[type="range"] { width: 100%; }
+    .slider-value { font-weight: bold; }
+    #downloadAll { margin-top: 10px; padding: 5px 10px; width: 100%; }
+  </style>
+  <title>Bulk Enhance Download</title>
+</head>
+<body>
+  <label>Speech: 
+    <input type="range" id="speechRange" min="0" max="100" value="60">
+    <span id="speechValDisplay" class="slider-value">60</span>% 
+  </label>
+  <label>Background: 
+    <input type="range" id="bgRange" min="0" max="100" value="20">
+    <span id="bgValDisplay" class="slider-value">20</span>% 
+  </label>
+  <button id="downloadAll">Download All</button>
+  <script src="popup.js"></script>
+</body>
+</html>

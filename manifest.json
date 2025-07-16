@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "Adobe Podcast Bulk Downloader",
+  "version": "1.0",
+  "description": "Bulk download enhanced audio/video files from Adobe Podcast Enhance with global Speech/Background settings.",
+  "permissions": [
+    "tabs"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Adobe Podcast Bulk Download"
+  },
+  "content_scripts": [{
+    "matches": [ "https://podcast.adobe.com/*/enhance*",
+                 "https://podcast.adobe.com/enhance*" ],
+    "js": [ "contentScript.js" ]
+  }]
+}
