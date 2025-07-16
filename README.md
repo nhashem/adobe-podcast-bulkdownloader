@@ -18,7 +18,7 @@ Adobe supports bulk upload — but not bulk download. This extension fixes that.
 
 ## 🖥️ Installation
 
-1. Clone this repo or [download as ZIP](https://github.com/YOUR_USERNAME/YOUR_REPO_NAME/archive/refs/heads/main.zip)
+1. Clone this repo or [download the latest release as ZIP](https://github.com/nhashem/adobe-podcast-bulkdownloader/archive/refs/tags/v0.1.zip)
 2. Open Chrome and go to `chrome://extensions`
 3. Enable **Developer Mode** (top right)
 4. Click **Load Unpacked**
@@ -78,7 +78,7 @@ Adobe doesn’t offer a public API — this extension reverse-engineers and auto
 
 ## 🙏 Credits
 
-Crafted with ✨ and caffeine by [Nate Hashem](https://github.com/YOUR_GITHUB), powered by good vibes and LEGO minifigs.
+Crafted with ✨ and caffeine by [Nate Hashem](https://github.com/nhashem), powered by good vibes and LEGO minifigs.
 
 ---
 
